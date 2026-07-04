@@ -5,7 +5,7 @@ public class studentReportcard {
     static final int total_mark = 100;
     public static void main(String args[]){
         Scanner sc = new Scanner(System.in);
-        System.out.println("=====STUDENT REPORT CARD=====");
+        System.out.println("=====STUDENT DETAILS=====");
 
         System.out.println("Enter the name of the student:- ");
         String NAME = sc.next();
@@ -14,7 +14,7 @@ public class studentReportcard {
         String BRANCH = sc.next(); 
 
         System.out.println("Enter the roll.no of the student:- ");
-        int roll = sc.nextInt();
+        long roll = sc.nextInt();
         
         System.out.println("Enter the semester:- ");
         int sem = sc.nextInt();
@@ -57,7 +57,7 @@ public class studentReportcard {
 
 
         System.out.println();
-        System.out.println("=====REPORT CARD=====");
+        System.out.println("=====FINAL REPORT CARD=====");
         System.out.println("Name: " + NAME);
         System.out.println("Branch: " + BRANCH);
         System.out.println("Roll No: " + roll);
